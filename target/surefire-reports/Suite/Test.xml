@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-U61CLK6" name="mavenGithubJenkinsProject.DataDrivenTesting" tests="6" failures="0" timestamp="23 Dec 2018 19:15:19 GMT" time="87.954" errors="0">
+  <testcase name="testData" time="15.474" classname="mavenGithubJenkinsProject.DataDrivenTesting"/>
+  <testcase name="testData" time="12.567" classname="mavenGithubJenkinsProject.DataDrivenTesting"/>
+  <testcase name="testData" time="13.183" classname="mavenGithubJenkinsProject.DataDrivenTesting"/>
+  <testcase name="testData" time="12.099" classname="mavenGithubJenkinsProject.DataDrivenTesting"/>
+  <testcase name="testDropDown" time="15.556" classname="mavenGithubJenkinsProject.DropDownTesting"/>
+  <testcase name="mouseHoverExampleTesting" time="18.138" classname="mavenGithubJenkinsProject.MouseHoverExample"/>
+</testsuite>

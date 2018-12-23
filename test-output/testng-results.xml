@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="83228" started-at="2018-12-23T00:35:38Z" finished-at="2018-12-23T00:37:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="83228" started-at="2018-12-23T00:35:38Z" finished-at="2018-12-23T00:37:01Z">
+      <class name="mavenGithubJenkinsProject.MouseHoverExample">
+        <test-method status="PASS" signature="mouseHoverExampleTesting()" name="mouseHoverExampleTesting" duration-ms="16323" started-at="2018-12-23T00:36:45Z" finished-at="2018-12-23T00:37:01Z">
+        </test-method>
+      </class>
+      <class name="mavenGithubJenkinsProject.DataDrivenTesting">
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="13260" started-at="2018-12-23T00:35:39Z" finished-at="2018-12-23T00:35:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="12894" started-at="2018-12-23T00:35:52Z" finished-at="2018-12-23T00:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="12786" started-at="2018-12-23T00:36:05Z" finished-at="2018-12-23T00:36:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="12199" started-at="2018-12-23T00:36:18Z" finished-at="2018-12-23T00:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[26000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="mavenGithubJenkinsProject.DropDownTesting">
+        <test-method status="PASS" signature="testDropDown()" name="testDropDown" duration-ms="14863" started-at="2018-12-23T00:36:30Z" finished-at="2018-12-23T00:36:45Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

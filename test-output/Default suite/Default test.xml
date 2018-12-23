@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-U61CLK6" name="mavenGithubJenkinsProject.MouseHoverExample" tests="1" failures="0" timestamp="23 Dec 2018 06:30:35 GMT" time="16.546" errors="0">
+  <testcase name="mouseHoverExampleTesting" time="16.524" classname="mavenGithubJenkinsProject.MouseHoverExample"/>
+</testsuite>
