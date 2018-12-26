@@ -17,7 +17,7 @@ public class DropDownTesting {
 		System.setProperty("webdriver.chrome.driver","C:\\browser\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		//WebDriverWait wait = new WebDriverWait(driver, 20);
