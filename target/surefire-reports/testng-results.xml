@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="87954" started-at="2018-12-23T13:13:51Z" finished-at="2018-12-23T13:15:19Z">
+  <suite name="Suite" duration-ms="93439" started-at="2018-12-26T04:04:18Z" finished-at="2018-12-26T04:05:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="87954" started-at="2018-12-23T13:13:51Z" finished-at="2018-12-23T13:15:19Z">
-      <class name="mavenGithubJenkinsProject.MouseHoverExample">
-        <test-method status="PASS" signature="mouseHoverExampleTesting()" name="mouseHoverExampleTesting" duration-ms="18138" started-at="2018-12-23T13:15:01Z" finished-at="2018-12-23T13:15:19Z">
-        </test-method>
-      </class>
-      <class name="mavenGithubJenkinsProject.DataDrivenTesting">
-        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="15474" started-at="2018-12-23T13:13:52Z" finished-at="2018-12-23T13:14:07Z">
+    <test name="Test" duration-ms="93439" started-at="2018-12-26T04:04:18Z" finished-at="2018-12-26T04:05:52Z">
+      <class name="com.qa.testcases.DataDrivenTesting">
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.DataDrivenTesting@153f5a29]" name="testData" duration-ms="14335" started-at="2018-12-25T22:04:19Z" data-provider="testdata" finished-at="2018-12-25T22:04:33Z">
           <params>
             <param index="0">
               <value>
@@ -29,8 +25,10 @@
               </value>
             </param>
           </params>
-        </test-method>
-        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="12567" started-at="2018-12-23T13:14:07Z" finished-at="2018-12-23T13:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.DataDrivenTesting@153f5a29]" name="testData" duration-ms="13251" started-at="2018-12-25T22:04:33Z" data-provider="testdata" finished-at="2018-12-25T22:04:47Z">
           <params>
             <param index="0">
               <value>
@@ -48,8 +46,10 @@
               </value>
             </param>
           </params>
-        </test-method>
-        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="13183" started-at="2018-12-23T13:14:20Z" finished-at="2018-12-23T13:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.DataDrivenTesting@153f5a29]" name="testData" duration-ms="13681" started-at="2018-12-25T22:04:47Z" data-provider="testdata" finished-at="2018-12-25T22:05:00Z">
           <params>
             <param index="0">
               <value>
@@ -67,8 +67,10 @@
               </value>
             </param>
           </params>
-        </test-method>
-        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)" name="testData" duration-ms="12099" started-at="2018-12-23T13:14:33Z" finished-at="2018-12-23T13:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method status="PASS" signature="testData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.DataDrivenTesting@153f5a29]" name="testData" duration-ms="13537" started-at="2018-12-25T22:05:00Z" data-provider="testdata" finished-at="2018-12-25T22:05:14Z">
           <params>
             <param index="0">
               <value>
@@ -86,12 +88,22 @@
               </value>
             </param>
           </params>
-        </test-method>
-      </class>
-      <class name="mavenGithubJenkinsProject.DropDownTesting">
-        <test-method status="PASS" signature="testDropDown()" name="testDropDown" duration-ms="15556" started-at="2018-12-23T13:14:45Z" finished-at="2018-12-23T13:15:01Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- com.qa.testcases.DataDrivenTesting -->
+      <class name="com.qa.testcases.DropDownTesting">
+        <test-method status="PASS" signature="testDropDown()[pri:0, instance:com.qa.testcases.DropDownTesting@36f6e879]" name="testDropDown" duration-ms="21095" started-at="2018-12-25T22:05:30Z" finished-at="2018-12-25T22:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropDown -->
+      </class> <!-- com.qa.testcases.DropDownTesting -->
+      <class name="com.qa.testcases.MouseHoverExample">
+        <test-method status="PASS" signature="mouseHoverExampleTesting()[pri:0, instance:com.qa.testcases.MouseHoverExample@7f560810]" name="mouseHoverExampleTesting" duration-ms="16674" started-at="2018-12-25T22:05:14Z" finished-at="2018-12-25T22:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverExampleTesting -->
+      </class> <!-- com.qa.testcases.MouseHoverExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

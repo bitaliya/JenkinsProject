@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="mavenGithubJenkinsProject.DataDrivenTesting"/>
-      <class name="mavenGithubJenkinsProject.MouseHoverExample"/>
-      <class name="mavenGithubJenkinsProject.DropDownTesting"/>
+      <class name="com.qa.testcases.DataDrivenTesting"/>
+      <class name="com.qa.testcases.MouseHoverExample"/>
+      <class name="com.qa.testcases.DropDownTesting"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
